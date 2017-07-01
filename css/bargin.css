@@ -1,0 +1,252 @@
+ body,html{
+	width: 100%;
+	height: 100%;
+	background: #F1F1F1;
+}
+
+#mm-layout{
+	min-width:320px;
+	// max-width: 640px; 
+
+}
+
+#mm-header{
+	width: 100%;
+	height: 1.5rem;
+	background: #F4483E;
+	padding: 0 0.2rem 0 0.5rem;
+	overflow: hidden;
+	position: relative;
+}
+
+#mm-header .back {
+	width: 2.42rem;
+	height: 100%;
+	line-height: 1.5rem;
+	font-size: .8rem;
+	color:white;
+	font-family: "simsun";
+}
+#mm-header .tlt{
+	left: 50%;
+	transform: translate(-50%, 0);;
+	position: absolute;
+	height: 100%;
+	line-height: 1.5rem;
+	font-size: .4rem;
+	color: white;
+}
+#mm-header .app {
+	margin-top: .22rem;
+	width: 1.02rem;
+	height: 1.05rem;
+}
+#mm-header a img{
+	width: 100%;
+}
+
+ /*底部 footer*/
+#mm-footer{
+  	margin-top: .2rem;
+  	background: #EFEFEF;
+  	text-align: center
+  }
+
+#mm-footer >.m-login{
+	width: 100%;
+	height: .93rem;
+	border-top: .02rem solid #ccc;
+	border-bottom: .02rem solid #ccc;
+	margin-top: .26rem;
+}
+#mm-footer>.m-login .login,.logon,.goBack{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	float: left;
+	border-right: 2px solid #ccc;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .93rem;
+}
+#mm-footer >.m-login .goBack{
+	width: 40%;
+	border-right:none;
+	background: url('../images/top.jpg') no-repeat .9rem .28rem;
+	background-size: .4rem .4rem;
+}
+
+#mm-footer  p > span{
+	font-size:.35rem ;
+}
+#mm-footer  p span:nth-child(1){
+	color: red;
+}
+#mm-footer  p span:nth-child(2){
+	color: #000;
+}
+#mm-footer  p span:nth-child(3){
+	color: #7D8285;
+}
+#mm-footer  .one{
+	margin-top: .50rem;
+}
+#mm-footer  .two{
+	color: #B8C9D1;
+	margin-top: .22rem;
+	margin-bottom: .44rem;
+}
+/*导航*/
+nav{
+	width: 100%;
+	position: relative;
+	height: 1rem;
+	overflow: hidden;
+}
+nav ul{
+	width: 216.65800000000002%;
+	height: 1rem;
+	position: absolute;
+}
+nav ul li{
+	width: 7.6923076923076925%;
+	height: 100%;
+	float: left; 
+	text-align: center;
+}
+nav ul li a {
+	display: inline-block;
+	height: 100%;
+
+	line-height: 1rem;
+	font-size: .4rem;
+	text-align: center;
+}
+nav ul li a:hover{
+	color:red;
+	border-bottom: 2px solid red;
+}
+
+/*内容*/
+#mm-content{
+	width: 100%;
+	background: white;
+	margin-top: .12rem;
+}
+
+
+#mm-content ul{
+	width: 100%;
+}
+#mm-content ul li {
+	width: 100%;
+	height: 3.61rem;
+	border: 1px solid #ccc;
+}
+#mm-content ul li img{
+	padding: 10px;
+    width: 30%;
+     height: 100%; 
+    margin-top: .12rem;
+}
+#mm-content ul li .text{
+	width: 70%;
+	height: 3.61rem;
+	padding-top: .3rem;
+}
+#mm-content ul li .text h3{
+	display: inline-block;
+	font-size: .4rem;
+	color: #000;
+	width: 100%;
+	white-space:nowrap;
+	overflow: hidden;
+}
+
+#mm-content ul li .text p{
+	margin-top: .1rem;
+	font-size: .5rem;
+	color: red;
+}
+#mm-content ul li .text p > em,del{
+	font-size: .4rem;
+	font-style: normal;
+}
+#mm-content ul li .text p> del{
+	font-size: .3rem;
+	color: #ccc;
+	padding-left: .5rem;
+}
+#mm-content ul li .text p >i{
+	font-size: .3rem;
+	font-style: normal;
+}
+.bar i{
+	display: inline-block;
+	width: 2.4rem;
+	height: .4rem;
+	border:1px solid red;
+	background: #FEB5B5;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: .1rem;
+	position: relative;
+}
+.bar i em{
+	display: inline-block;
+	height: 100%;
+	background: red;
+	float: left;
+	border-radius: 10px;
+
+
+
+}
+.bar i span{
+
+	font-size: .25rem;
+	font-style: normal;
+	color: white;
+	position: absolute;
+	left: 45%;
+	top: -.08rem;
+}
+.bar b{
+	color:red;
+	font-size: .25rem;
+	font-style: normal;
+	padding-bottom: .2rem;
+	font-weight: 900;
+}
+#ctn li .text a:nth-of-type(2){
+	color:red;
+	display: inline-block;
+	width: 3.6rem;
+	height: .8rem;
+	border:1px dashed red;
+	margin-top: .2rem;
+	line-height: .8rem;
+	font-size: .25rem;
+	text-align: center;
+}
+#ctn li .text a:nth-of-type(3){
+	float: right;
+	width: 1.70rem;
+	height:.8rem;
+	background: #FF5D5C;
+	font-size: .25rem;
+	color: white;
+	text-align: center;
+	line-height: .8rem;
+	border-radius: 5px;
+	margin-top: .28rem;
+	margin-right: .2rem;
+}
+#mm-content ul li .text .count span{
+	display: inline-block;
+	padding-left: .4rem;
+	background:  url("../images/tip.jpg") no-repeat 0px .10rem ;
+	margin-right: .2rem;
+	background-size:.35rem .28rem;
+}
+

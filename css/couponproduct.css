@@ -1,0 +1,206 @@
+ body,html{
+	width: 100%;
+	height: 100%;
+	background: #F1F1F1;
+	position: relative;
+}
+
+#mm-layout{
+	min-width:320px;
+	// max-width: 640px; 
+
+}
+
+#mm-header{
+	width: 100%;
+	height: 1.5rem;
+	background: #F4483E;
+	padding: 0 0.2rem 0 0.5rem;
+	overflow: hidden;
+	// position: relative;
+}
+
+#mm-header .back {
+	width: 2.42rem;
+	height: 100%;
+	line-height: 1.5rem;
+	font-size: .8rem;
+	color:white;
+	font-family: "simsun";
+}
+#mm-header .tlt{
+	left: 50%;
+	transform: translate(-50%, 0);;
+	position: absolute;
+	height: 100%;
+	line-height: 1.5rem;
+	font-size: .4rem;
+	color: white;
+}
+#mm-header .app {
+	margin-top: .22rem;
+	width: 1.02rem;
+	height: 1.05rem;
+}
+#mm-header a img{
+	width: 100%;
+}
+
+ /*底部 footer*/
+#mm-footer{
+  	margin-top: .2rem;
+  	background: #EFEFEF;
+  	text-align: center
+  }
+
+#mm-footer >.m-login{
+	width: 100%;
+	height: .93rem;
+	border-top: .02rem solid #ccc;
+	border-bottom: .02rem solid #ccc;
+	margin-top: .26rem;
+}
+#mm-footer>.m-login .login,.logon,.goBack{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	float: left;
+	border-right: 2px solid #ccc;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .93rem;
+}
+#mm-footer >.m-login .goBack{
+	width: 40%;
+	border-right:none;
+	background: url('../images/top.jpg') no-repeat .9rem .28rem;
+	background-size: .4rem .4rem;
+}
+
+#mm-footer  p > span{
+	font-size:.35rem ;
+}
+#mm-footer  p span:nth-child(1){
+	color: red;
+}
+#mm-footer  p span:nth-child(2){
+	color: #000;
+}
+#mm-footer  p span:nth-child(3){
+	color: #7D8285;
+}
+#mm-footer  .one{
+	margin-top: .50rem;
+}
+#mm-footer  .two{
+	color: #B8C9D1;
+	margin-top: .22rem;
+	margin-bottom: .44rem;
+}
+
+
+/*内容*/
+#mm-content{
+	width: 100%;
+	background: white;
+	margin-top: .12rem;
+}
+
+
+#mm-content ul{
+	width: 100%;
+}
+#mm-content ul li {
+	width: 100%;
+	height: 3.61rem;
+	border: 1px solid #ccc;
+}
+#mm-content ul li img{
+	padding: 10px;
+    width: 30%;
+    /* height: 100%; */
+    margin-top: .12rem;
+}
+#mm-content ul li .text{
+	width: 70%;
+	height: 3.61rem;
+	padding-top: .3rem;
+	position: relative;
+}
+#mm-content ul li .text h3{
+	font-size: .4rem;
+	color: #000;
+	ext-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+
+
+}
+#mm-content ul li .text  b{
+	
+	position: absolute;
+	left: 0;
+	font-size: .4rem;
+}
+#mm-content ul li .text .p1{
+	margin-top: 1rem;
+	font-size: .3rem;
+	color: #F08B27;
+
+}
+#mm-content ul li .text .count span{
+	display: inline-block;
+	padding-left: .4rem;
+	font-size: .6rem;
+	margin-right: .2rem;
+	background-size:.35rem .28rem;
+	font-family: "simsun";
+}
+
+.mask {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(26,26,26,.8);
+	top: 0;
+	display: none;
+}
+.mask .imgs{
+	width: 6.07rem;
+	height: 4.88rem;
+	background: white;
+	position: absolute;
+	top: 50%;
+	left:  50%;
+	transform:translate(-50%,-50%);
+	z-index: 9999;
+}
+.mask .imgs img{
+	width: 100%;
+
+}
+.mask .left,.right{
+	width: 1.3rem;
+	height: 1.8rem;
+	position: absolute;
+	background: #242424;
+	font-family: "simsun";
+	color: white;
+	font-size: 1rem;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 1.8rem;
+	cursor: pointer;
+	transform: translate(0,-50%);
+}
+.mask .left {
+	top:50%;
+	left:9%;
+}
+.mask .right{
+	top: 50%;
+	right: 9%;
+
+}

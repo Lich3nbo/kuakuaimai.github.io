@@ -1,0 +1,45 @@
+#sore {
+	width: 100%;
+	background: white;
+}
+#sore > ul{
+	width: 100%;
+}
+#sore > ul> li{
+	width: 100%;
+	overflow: hidden;
+
+}
+#sore > ul> li > h2{
+	width: 100%;
+	color: #000;
+	font-size: .5rem;
+	line-height: 1.14rem;
+	border-bottom: 2px solid #D2D2D2;
+	background: #EDEDED;
+	padding: 0 .3rem;
+}
+#sore > ul> li > h2 > b{
+	font-family: "simsun";
+	font-weight: normal;
+	color: #92A2A2;
+	transform: rotateZ(90deg);;
+}
+#sore > ul> li > ul{
+	width: 100%;
+}
+#sore > ul> li > ul >li{
+	width: 33.333333%;
+	height: 1.1rem;
+	text-align: center;
+	border-right:2px solid #D2D2D2;
+	border-bottom: 2px solid #D2D2D2;
+	float: left;
+}
+#sore > ul> li > ul >li> a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	line-height: 1.1rem ;
+	font-size: .4rem;
+}

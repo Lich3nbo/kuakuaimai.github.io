@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/brandProductList.css">
+	<script src="js/zepto.min.js"></script>
+	<script src="js/rem.js"></script>
+	<script src="js/brandProductList.js"></script>
+	<title></title>
+</head>
+<body>
+	<div id="mm-layout">	
+		<div id="mm-header" >
+			<a href="javascript:;" class="f_left logo">
+				<img src="images/header_logo.png" alt="">
+			</a>
+			<a href="javascript:;" class="f_right app">
+				<img src="images/header_app.png" alt="">
+			</a>
+		</div>
+		<!-- header end	 -->
+		<div id="sear">
+			<input type="text" placeholder="请输入你想比价的商品" id="txt" class="f_left">
+			<input type="button" value ="搜索" id="btn" class="f_right">
+			<!-- 有小bug应该用定位写 -->
+		</div>
+		
+		<div id='mm-menu'>
+			<div class='menu-nav clearfix'>
+				<ul  class="f_left">
+					<li>
+						<a href="index.html">首页 > </a>
+						<a href="brand.html">全部分类 > </a>
+						<a href="#" class="name">电视 > </a>
+						
+					</li>
+				</ul>
+				<input type="button" value ="筛选" class="f_right">
+			</div>
+			<ul id="productlist">
+				<li>
+					<a href="productShow.html?productId='+data[i].productId+'&name='+name1+'">
+						<div  class="imgs f_left">
+							data[i].productImg+
+						</div>
+						<div class="intro f_left">
+							<h2>
+							+data[i].productName+
+							</h2>
+							<p>'+data[i].productPrice+'</p>
+						<p>
+								<span>'+data[i].productQuote+'</span>
+								<span>'+data[i].productCom+'</span>
+						</p>
+						
+					</div>
+					</a>
+				</li>
+			</ul>
+			<div id='page'>
+				<div id="left">上一页</div>
+				<ul id="select">
+					<li><span class="count"></span>/<span class="num"></span>
+					</li>
+					<li><span class="count"></span>/<span class="num"></span>
+					</li>
+					<li><span class="count"></span>/<span class="num"></span>
+					</li>
+					<li><span class="count"></span>/<span class="num"></span>
+					</li>
+
+				</ul>
+				<div id="right">下一页</div>
+			</div>
+		</div>
+		<div id="mm-footer">
+
+			<div class="m-login">
+				<a href="javascript:;" class="login">登录</a>
+				<a href="javasctipt:;" class="logon">注册</a>
+				<a href="#mm-header" class="goBack">
+					返回顶部
+				</a>
+			</div>
+			<p class="one">
+				<span>手机APP下载</span> 
+				<span>慢慢买手机版 </span>
+				<span> -- 掌上比价平台</span>
+			</p>
+			<p class="two">m.manmanbuycom</p>
+		</div>
+	</div>
+</body>
+
+</html>

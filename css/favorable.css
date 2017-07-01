@@ -1,0 +1,194 @@
+ body,html{
+	width: 100%;
+	height: 100%;
+	background: #F1F1F1;
+}
+
+#mm-layout{
+	min-width:320px;
+	// max-width: 640px; 
+
+}
+
+#mm-header{
+	width: 100%;
+	height: 1.5rem;
+	background: #FF841D;
+	padding: 0 0.2rem 0 0.5rem;
+	overflow: hidden;
+	position: relative;
+}
+
+#mm-header .back {
+	width: 2.42rem;
+	height: 100%;
+	line-height: 1.5rem;
+	font-size: .8rem;
+	color:white;
+	font-family: "simsun";
+}
+#mm-header .tlt{
+	left: 50%;
+	transform: translate(-50%, 0);;
+	position: absolute;
+	height: 100%;
+	line-height: 1.5rem;
+	font-size: .4rem;
+	color: white;
+}
+#mm-header .app {
+	margin-top: .22rem;
+	width: 1.02rem;
+	height: 1.05rem;
+}
+#mm-header a img{
+	width: 100%;
+}
+
+ /*底部 footer*/
+#mm-footer{
+  	margin-top: .2rem;
+  	background: #EFEFEF;
+  	text-align: center
+  }
+
+#mm-footer >.m-login{
+	width: 100%;
+	height: .93rem;
+	border-top: .02rem solid #ccc;
+	border-bottom: .02rem solid #ccc;
+	margin-top: .26rem;
+}
+#mm-footer>.m-login .login,.logon,.goBack{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	float: left;
+	border-right: 2px solid #ccc;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .93rem;
+}
+#mm-footer >.m-login .goBack{
+	width: 40%;
+	border-right:none;
+	background: url('../images/top.jpg') no-repeat .9rem .28rem;
+	background-size: .4rem .4rem;
+}
+
+#mm-footer  p > span{
+	font-size:.35rem ;
+}
+#mm-footer  p span:nth-child(1){
+	color: red;
+}
+#mm-footer  p span:nth-child(2){
+	color: #000;
+}
+#mm-footer  p span:nth-child(3){
+	color: #7D8285;
+}
+#mm-footer  .one{
+	margin-top: .50rem;
+}
+#mm-footer  .two{
+	color: #B8C9D1;
+	margin-top: .22rem;
+	margin-bottom: .44rem;
+}
+
+
+/*内容*/
+#mm-content{
+	width: 100%;
+	background: white;
+	margin-top: .12rem;
+}
+
+
+#mm-content ul{
+	width: 100%;
+}
+#mm-content ul li {
+	width: 100%;
+	height: 3.61rem;
+	border: 1px solid #ccc;
+}
+#mm-content ul li img{
+	padding: 10px;
+    width: 30%;
+    /* height: 100%; */
+    margin-top: .12rem;
+}
+#mm-content ul li .text{
+	width: 70%;
+	height: 3.61rem;
+	padding-top: .3rem;
+}
+#mm-content ul li .text h3{
+	font-size: .4rem;
+	color: #000;
+}
+#mm-content ul li .text h3 span{
+	color: #FF752D;
+}
+#mm-content ul li .text p,.count{
+	margin-top: 1rem;
+	font-size: .3rem;
+	color: #ADB7B8;
+}
+#mm-content ul li .text .count span{
+	display: inline-block;
+	padding-left: .4rem;
+	background:  url("../images/tip.jpg") no-repeat 0px .10rem ;
+	margin-right: .2rem;
+	background-size:.35rem .28rem;
+}
+
+/*上一页下一页*/
+#page {
+	width: 100%;
+	height: 1.4rem;
+	position: relative;
+	background: white;
+}
+#page  #left,#right{
+	width: 2.4rem;
+	height: 1rem;
+	line-height: 1rem;
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+	font-size: .4rem;
+	border: 1px solid #E4E4E4;
+	border-radius: 10px; 
+	background-image: linear-gradient(to bottom,#F0F0F0,#D6D6D6);
+}
+#page #left{
+	left: 0.4rem;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+#page #right{
+	right: 0.4rem;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+
+#page #select{
+	width: 2.14rem;
+	height: 1rem;
+}
+
+#page #select>li{
+	width: 2.14rem;
+	height: 1rem;
+	border: 2px solid #E4E4E4;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	bottom:0;
+	transform: translate(-50%,0);
+	line-height: 1rem;
+	font-size: .35rem;
+}

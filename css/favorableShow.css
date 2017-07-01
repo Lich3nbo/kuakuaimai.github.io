@@ -1,0 +1,270 @@
+ body,html{
+	width: 100%;
+	height: 100%;
+	background: #F1F1F1;
+}
+
+#mm-layout{
+	min-width:320px;
+	// max-width: 640px; 
+
+}
+
+#mm-header{
+	width: 100%;
+	height: 1.5rem;
+	background: #FF841D;
+	padding: 0 0.2rem 0 0.5rem;
+	overflow: hidden;
+	position: relative;
+}
+
+#mm-header .back {
+	width: 2.42rem;
+	height: 100%;
+	line-height: 1.5rem;
+	font-size: .8rem;
+	color:white;
+	font-family: "simsun";
+}
+#mm-header .tlt{
+	left: 50%;
+	transform: translate(-50%, 0);;
+	position: absolute;
+	height: 100%;
+	line-height: 1.5rem;
+	font-size: .4rem;
+	color: white;
+}
+#mm-header .app {
+	margin-top: .22rem;
+	width: 1.02rem;
+	height: 1.05rem;
+}
+#mm-header a img{
+	width: 100%;
+}
+
+ /*底部 footer*/
+#mm-footer{
+  	margin-top: .2rem;
+  	background: #EFEFEF;
+  	text-align: center
+  }
+
+#mm-footer >.m-login{
+	width: 100%;
+	height: .93rem;
+	border-top: .02rem solid #ccc;
+	border-bottom: .02rem solid #ccc;
+	margin-top: .26rem;
+}
+#mm-footer>.m-login .login,.logon,.goBack{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	float: left;
+	border-right: 2px solid #ccc;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .93rem;
+}
+#mm-footer >.m-login .goBack{
+	width: 40%;
+	border-right:none;
+	background: url('../images/top.jpg') no-repeat .9rem .28rem;
+	background-size: .4rem .4rem;
+}
+
+#mm-footer  p > span{
+	font-size:.35rem ;
+}
+#mm-footer  p span:nth-child(1){
+	color: red;
+}
+#mm-footer  p span:nth-child(2){
+	color: #000;
+}
+#mm-footer  p span:nth-child(3){
+	color: #7D8285;
+}
+#mm-footer  .one{
+	margin-top: .50rem;
+}
+#mm-footer  .two{
+	color: #B8C9D1;
+	margin-top: .22rem;
+	margin-bottom: .44rem;
+}
+
+
+/*内容*/
+#content{
+	width: 100%;
+	background: white;
+	padding: .5rem .3rem;
+}
+#content > h2{
+	width: 100%;
+	text-align: left;
+	font-size: .5rem;
+}
+#content > .p1{
+	font-size: .3rem;
+	color:#B7BECC;
+	padding-top: .65rem;
+}
+#content > .imgsm{
+	width: 100%;
+	padding-top: .6rem;
+}
+#content > .imgsm> .p2{
+	width: 70%;
+	float: left;
+	vertical-align: middle;
+	font-size: .4rem;
+}
+#content > .imgsm img{
+
+	width: 30%;
+	float: right;
+}
+#content > .p3 {
+	font-size: .4rem;
+	padding-top: .3rem;
+}
+#content > .imglg{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding-top: .2rem;
+}
+#content > .imglg >img{
+	width: 100%;
+}
+
+#content .buy{
+	height: 2.3rem;
+	width: 100%;
+	padding:.7rem 0 0 .4rem ;
+	box-sizing: border-box;
+}
+#content .buy> a {
+	display: inline-block;
+	height: .86rem;
+	width: 9.53rem;
+	background: #FF9000;
+	border:1px solid #FF8700;
+	text-align: center;
+	color: white;
+	font-size: .4rem;
+	line-height: .86rem; 
+	border-radius: 5px;
+}
+#content .ewm{
+	width: 100%;
+}
+#content .ewm>img{
+	width: 100%;
+}
+
+// 动态数据处理 City
+#disstorck{
+	margin-top: .2rem;
+	text-align: center;
+	width: 100%;
+}
+#disstorck li{
+	width: 25%;
+	margin: 0 auto;
+	padding: 0 .1rem;
+	border-left: .5px solid #E9E9EA;
+	border-right: .5px solid #E9E9EA;
+	text-align: left;
+}
+#disstorck li a{
+	display: inline-block;
+	width: 100%;
+	padding-bottom: .1rem;
+	border-bottom: 1px dashed #ccc;
+	padding: 0 .1rem;
+	font-size: .2rem;
+}
+#disstorck li strong{
+	float: right;
+	font-weight: normal;
+	color:#FF7C00;
+}
+// 评论
+.cu-content-pl {
+	width: 100%;
+	height: 1.5rem;
+}
+.cu-content-pl .tit{
+	font-size: .4rem;
+}
+.cu-content-pl .reply{
+	position: relative;
+	width: 100%;
+}
+.cu-content-pl .reply textarea{
+	width: 100%;
+	height: 3.3rem;
+	border: 1px solid #ccc;
+}
+.cu-content-pl .ctrl input{
+	position: absolute;
+	bottom: .08rem;
+	right: -.12rem;
+	width: 2.85rem;
+	height: 1.14rem;
+	background: #FF841D;
+	line-height: 1.14rem;
+	color: white;
+}
+.cu-content-pl .list{
+	width: 100%;
+	overflow: hidden;
+	margin-top: .7rem;
+}
+.cu-content-pl .list ul{
+	width: 100%;
+}
+.cu-content-pl .list li{
+	width: 100%;
+	overflow: hidden;
+	margin-top: .5rem;
+}
+.cu-content-pl .list li .userimg{
+	width: 1.2rem;
+	height: 1.2rem;
+	float: left;
+}
+.cu-content-pl .list li .userimg img{
+	width: 100%;
+	border-radius: 50%;
+}
+.cu-content-pl .con {
+	float: right;
+	width: 87%;
+	overflow: hidden;
+	height: 20%;
+}
+.cu-content-pl .list li .name{
+	float: left;
+	width: 100%;
+}
+.cu-content-pl .list li .username{
+	float: left;
+	color:#5FB7EA;
+	font-size: .35rem;
+}
+
+.cu-content-pl .list li .time{
+	float: right;
+	font-size: .35rem;
+}
+.cu-content-pl .content{
+	font-size: .4rem;
+	margin-top: .6rem;
+}
